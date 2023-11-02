@@ -1,7 +1,7 @@
 name: Check in
 
-on:
-  workflow_dispatch:
+# on:
+#   workflow_dispatch:
   # workflow_run:
   #   workflows: [ "Build image" ]
   #   types:
