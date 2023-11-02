@@ -1,11 +1,8 @@
 name: Check in
 
-# on:
-#   workflow_dispatch:
-  # workflow_run:
-  #   workflows: [ "Build image" ]
-  #   types:
-  #     - completed
+on:
+  workflow_dispatch:
+  repository_dispatch:
 
 # UTC时间，对应Beijing时间 9：30
 schedule:
